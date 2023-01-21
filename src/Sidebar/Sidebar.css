@@ -1,0 +1,38 @@
+.sidebar_top {
+    background-color: white;
+    width: 200px;
+    margin-left: 5%;
+    border-radius: 12px;
+}
+.sidebar_top >img {
+    
+    border-radius: 5%;
+    width: 200px;
+    height: auto;
+    border: 2px solid grey;
+    
+}
+.sidebar_top >h4 {
+    margin-left: 6%;
+    margin-top: -10%;
+    color: grey;
+    font-weight: 500;
+    font-size: 11px;
+}
+.sidebar_top >p {
+    margin: 10%;
+    margin-top: -2%;
+    color: white;
+    margin-right: 50%;
+}
+.sidebar_top >hr {
+    width: 200px;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+.sidebar_views >p{
+    margin: 5%;
+    font-size: small;
+
+}
