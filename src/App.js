@@ -5,16 +5,18 @@ import UserDetails from './UserDetails/Sidebar';
 import RightMenu from './RightMenu/RightMenu';
 import Recents from './Recents/Recents';
 import Feed from './Feed/Feed';
+import AboutUs from './AboutUs/AboutUs';
 
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <UserDetails />
+     <UserDetails />
       <RightMenu />
       <Recents />
-      <Feed />
+     <Feed /> 
+     {/* <AboutUs /> */}
     </div>
   );
 }

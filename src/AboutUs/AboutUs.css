@@ -1,0 +1,21 @@
+.Aboutus_text >h1{
+   font-size: 30px;
+   margin:70px;
+}
+.Aboutus_text >p {
+    margin: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 20px;
+}
+
+.Aboutus_text >button {
+    border: inherit;
+    height: 30px;
+    color: blue;
+    font-weight:5px ;
+    margin: 40px;
+    margin-left: 90px;
+    background-color: white;
+    
+}
