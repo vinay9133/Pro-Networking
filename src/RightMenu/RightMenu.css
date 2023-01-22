@@ -1,0 +1,21 @@
+.right_menu_container {
+    width: 250px;
+    display:absolute;
+    background-color: white;
+    border-radius: 12px;
+    padding: 5px 10px;
+    border: 1px solid gray;
+    margin-left: 900px;
+    margin-top: -260px;
+}
+
+.right_menu_title {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.right_menu_news_title {
+    margin-top: 20px;
+    cursor: pointer;
+}
+

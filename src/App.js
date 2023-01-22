@@ -1,13 +1,20 @@
 
 import './App.css';
 import Navbar from './Navbar/Navbar';
-import Sidebar from './Sidebar/Sidebar';
+import UserDetails from './UserDetails/Sidebar';
+import RightMenu from './RightMenu/RightMenu';
+import Recents from './Recents/Recents';
+import Feed from './Feed/Feed';
+
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <Sidebar />
+      <UserDetails />
+      <RightMenu />
+      <Recents />
+      <Feed />
     </div>
   );
 }

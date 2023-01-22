@@ -1,0 +1,51 @@
+.sidebar_top {
+    background-color: white;
+    width: 200px;
+    height: 180px;
+    margin-left: 5%;
+    border-radius: 12px;
+    margin: 6%;
+    border: 1px solid gray;
+    margin-top: 20px;
+}
+.sidebar_top >img {
+    
+    border-radius: 8%;
+    width: 200px;
+    height: 80px;
+    
+    
+}
+.sidebar_top >h4 {
+    margin-left: 6%;
+    margin-top: -25%;
+    color: grey;
+    font-weight: 500;
+    font-size: 11px;
+}
+.sidebar_top >p {
+    margin: 30%;
+    margin-top: -15%;
+    color: black;
+    margin-right: 50%;
+}
+.sidebar_top >hr {
+    width: 198px;
+    margin-left: 0.5px;
+    margin-top: 1%;
+}
+
+.count {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: gray;
+    margin-top: -15px;
+}
+.count1 {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: gray;
+    margin-top: -15px;
+}

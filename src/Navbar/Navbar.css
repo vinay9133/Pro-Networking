@@ -17,6 +17,10 @@
     margin-right: 10px;
 }
 
+.navbar_line {
+    border: 0.5px solid lightgrey;
+}
+
 
 .search {
     display: flex;
