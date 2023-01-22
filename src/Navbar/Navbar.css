@@ -1,6 +1,6 @@
 .navbar_container {
     position: sticky;
-    top: 0;
+    top: 0px;
     z-index: 1;
     background-color: rgb(252, 252, 252);
 }
@@ -69,5 +69,4 @@
     width: 120px;
     height: 40px;
     border-radius: 7%;
-
 }

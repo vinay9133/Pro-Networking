@@ -1,9 +1,8 @@
 import React from "react";
 import "./Navbar.css";
-import SearchIcon from "@mui/icons-material/Search";
-import Search from "@mui/icons-material/Search";
-
-const Navbar = () => {
+import { Link, useNavigate } from "react-router-dom";
+function Navbar() {
+  const navigate = useNavigate();
   return (
     <div className="navbar_container">
       <div className="navbar">
@@ -24,9 +23,9 @@ const Navbar = () => {
 
         <div className="navbar_right">
           <button onclick="myFunction()">HI,VINAYAK</button>
-          <button onclick="myFunction()">HOME</button>
-          <button onclick="myFunction()">ABOUT US</button>
-          <button onclick="myFunction()">PROFILE</button>
+          <button onClick={() => navigate("/")}>HOME</button>
+          <button onClick={() => navigate("/about-us")}>ABOUT US</button>
+          <button onClick={() => navigate("/profile")}>PROFILE</button>
           <button onclick="myFunction()">DARK MODE</button>
 
           <div className="navbar_last">
@@ -39,5 +38,4 @@ const Navbar = () => {
     </div>
   );
 };
-
 export default Navbar;
