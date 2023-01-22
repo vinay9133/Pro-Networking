@@ -1,0 +1,10 @@
+.homepage_container {
+    display: flex;
+    justify-content: center;
+}
+
+.left_menu {
+    height: 500px;
+    position: sticky;
+    top: 75px;
+}
