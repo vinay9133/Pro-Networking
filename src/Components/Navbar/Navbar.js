@@ -29,7 +29,7 @@ function Navbar() {
           <button onclick="myFunction()">DARK MODE</button>
 
           <div className="navbar_last">
-            <button onclick="myFunction()">LogOut</button>
+            <button onClick={() => navigate("/Login")}>LogOut</button>
           </div>
           <div></div>
         </div>

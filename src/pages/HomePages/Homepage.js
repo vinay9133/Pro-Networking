@@ -1,9 +1,9 @@
 import React from "react";
 import "./Homepage.css";
-import Sidebar from "../../UserDetails/Sidebar";
-import Recents from "../../Recents/Recents";
-import Feed from "../../Feed/Feed";
-import RightMenu from "../../RightMenu/RightMenu";
+import Sidebar from "../../Components/UserDetails/Sidebar";
+import Recents from "../../Components/Recents/Recents";
+import Feed from "../../Components/Feed/Feed";
+import RightMenu from "../../Components/RightMenu/RightMenu";
 
 function Homepage() {
   return (
