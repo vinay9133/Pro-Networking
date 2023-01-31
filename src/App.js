@@ -1,31 +1,33 @@
 import "./App.css";
+import React, { useState } from "react";
 import Navbar from "./Components/Navbar/Navbar";
-import UserDetails from "./Components/UserDetails/Sidebar";
-import RightMenu from "./Components/RightMenu/RightMenu";
-import Recents from "./Components/Recents/Recents";
-import Feed from "./Components/Feed/Feed";
 import AboutUs from "./pages/AboutUs/AboutUs";
 import Homepage from "./pages/HomePages/Homepage";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Profile from "./pages/Profile/Profile/Profile";
-import Login from "./Components/Login/Login";
 import FeedDescriptionPage from "./pages/FeedDescriptionPage/FeedDescriptionPage";
+import Login from "./pages/Login/Login";
 
 function App() {
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
   return (
     <div className="App">
       <BrowserRouter>
-        <Navbar />
+      {isLoggedIn ? (
+        <div>
+        <Navbar setIsLoggedIn={setIsLoggedIn} />
         <Routes>
           <Route exact path="/" element={<Homepage />} />
           <Route exact path="/about-us" element={<AboutUs />} />
           <Route exact path="/Profile" element={<Profile />} />
-          <Route exact path="/Login" element={<Login />} />
           <Route
             exact path="/feed-description/:id" element={<FeedDescriptionPage />}
           />
         </Routes>
-        {/* <AboutUs /> */}
+        </div>
+      ) : (
+        <div><Login setLoggedIn={setIsLoggedIn} /></div>
+      )}
       </BrowserRouter>
     </div>
   );

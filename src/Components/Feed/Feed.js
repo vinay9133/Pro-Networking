@@ -23,7 +23,7 @@ function Feed() {
     copyArray.unshift({
       userId: 10,
       id: posts.length + 1,
-      name: "Harshit",
+      name: "Vinayak",
       tags: ["HTML", "CSS"],
       body: input,
       image: imageUrl,
