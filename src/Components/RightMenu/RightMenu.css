@@ -6,7 +6,7 @@
     border: 1px solid gray;
     position: sticky;
     top: 100px;
-    height: 400px;
+    height: auto;
 }
 
 .right_menu_title {
