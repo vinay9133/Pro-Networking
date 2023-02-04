@@ -35,12 +35,9 @@ function Feed() {
     axios
       .get("https://dummyjson.com/posts")
       .then((response) => {
-        response.json();
+        setPosts(response.data.posts);
       })
-      .then((data) => {
-        console.log("response", data);
-        setPosts(data.posts);
-      })
+      
       .catch((e) => console.log(e));
   }
 
